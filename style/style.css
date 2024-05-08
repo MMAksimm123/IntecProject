@@ -1,0 +1,48 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy');
+
+/*стили для header*/
+
+html {
+  background-image: url('../img/blure1.svg');
+  background-repeat: no-repeat;
+  background-color: #0F0F0F;
+  top: -241.78px;
+  left: -712px;
+  gap: 0px;
+  opacity: 0px;
+  rotate: 15.07 deg;
+}
+
+header {
+  background-color: transparent;
+}
+
+.headerContayner {
+  display: flex;
+  margin-left: 361px;
+  margin-right: 360px;
+  margin-top: 76px;
+  justify-content: space-between;
+  width: auto;
+}
+
+.logoImg {
+  width: 170px;
+  height: 41px;
+  background-color: transparent;
+}
+
+.navigatePanel {
+  display: flex;
+  flex-direction: row;
+  gap: 56px;
+}
+
+.textHeader {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
