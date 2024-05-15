@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.specialists__block {
+  margin-top: 293px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 360px;
+}
+
+.specialists__block-title-text {
+  width: 537px;
+  text-wrap: wrap;
+  align-items: left;
+}
+
+.specialists__block-title-text--yellow {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: left;
+  color: #EBBD1B;
+}
+
+.specialists__block-title-text--white {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 52px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.specialists__block-border {
+  margin-top: 54px;
+  margin-bottom: 101px;
+}
+
+.specialists__block-description {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.specialists__block-description-all-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.specialists__block-description-all-info--frame {
+  width: 349px;
+  height: 446px;
+  background-color: #1D1D1D;
+  display: flex;
+  justify-content:  flex-end;
+  align-items: flex-end;
+}
+
+.specialists__block-description-all-info-text {
+  margin-top: 37px;
+  display: flex;
+  flex-direction: column;
+  max-width: 349px;
+}
+
+.specialists__block-description-all-info-text--name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  color: #EBBD1B;
+  text-transform: uppercase;
+}
+
+.specialists__block-description-all-info--photo
+{
+  width: 337px;
+  height: 434px;
+}
+
+.specialists__block-description-all-info-text--border {
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.specialists__block-description-all-info-text--description {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.specialists__block-description-all-info-text--logo {
+  margin-top: 26px;
+  width: 105px;
+  height: 25px;
+}
