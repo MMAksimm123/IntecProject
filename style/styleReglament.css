@@ -64,3 +64,10 @@
   margin-bottom: 162px;
  /* background: 0 0 / cover url("hxs") no-repeat, 0 0 / cp; -- задать несколько backgroundow для блока*/
 }
+
+.reglament__block-table {
+  display: flex;
+  flex-direction: col;
+}
+
+
