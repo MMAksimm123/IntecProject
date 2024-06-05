@@ -19,8 +19,6 @@ header {
 
 .headerContayner {
   display: flex;
-  margin-left: 361px;
-  margin-right: 360px;
   margin-top: 76px;
   justify-content: space-between;
   width: auto;

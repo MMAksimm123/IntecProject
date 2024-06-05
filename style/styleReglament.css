@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.reglament__block {
+  margin-top: 199px;
+  display: flex;
+  flex-direction: column;
+}
+
+.reglament__block-title {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.reglament__block-title-text {
+  max-width: 310px;
+  text-align: left;
+  text-wrap: wrap;
+  text-transform: uppercase;
+}
+
+.reglament__block-title-text--yellow {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #EBBD1B;
+}
+
+.reglament__block-title-text--white {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 52px;
+  color: #FFFFFF;
+}
+
+.reglament__block-title-hashteg-text {
+  text-align: left;
+  text-wrap: wrap;
+  text-transform: uppercase;
+}
+
+.reglament__block-title-hashteg-text--yellow {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 46.8px;
+  letter-spacing: 0.03em;
+  color: #EBBD1B61;
+}
+
+.reglament__block-title-hashteg-text--white {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 46.8px;
+  letter-spacing: 0.03em;
+  color: #b7b7b7;
+}
+
+.reglament__block-title-text--border--line {
+  margin-top: 56px;
+  margin-bottom: 162px;
+ /* background: 0 0 / cover url("hxs") no-repeat, 0 0 / cp; -- задать несколько backgroundow для блока*/
+}

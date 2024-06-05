@@ -1,0 +1,63 @@
+.wrapper__header {
+  box-sizing: border-box;
+  padding: 0 20px;
+  max-width: 1199px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wrapper__new-ewent {
+  box-sizing: border-box;
+  padding: 0 0 0 20px;
+  max-width: 1510px;
+  width: 100%;
+  margin-left: auto;
+}
+
+.wrapper__format-event {
+  box-sizing: border-box;
+  padding: 0 20px 0 0;
+  max-width: 1608px;
+  width: 100%;
+  margin: 0 auto 0 0;
+}
+
+.wrapper__specialists {
+  box-sizing: border-box;
+  padding: 0 0 0 20px;
+  max-width: 1510px;
+  width: 100%;
+  margin: 0 0 0 auto;
+}
+
+.wrapper__specialists-description {
+  box-sizing: border-box;
+  padding: 0 20px;
+  max-width: 1510px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  padding: 0 20px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 100px auto 0;
+}
+
+.wraper__reglament {
+  box-sizing: border-box;
+  padding: 0 20px;
+  max-width: 1510px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wraper__reglament-title {
+  box-sizing: border-box;
+  padding: 0 20px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}

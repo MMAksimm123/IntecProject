@@ -11,6 +11,7 @@
   width: 537px;
   text-wrap: wrap;
   align-items: left;
+  margin-top: 254px;
 }
 
 .specialists__block-title-text--yellow {
@@ -31,6 +32,22 @@
   color: #FFFFFF;
 }
 
+.specialists__block-title-text--header-block {
+  display: flex;
+  flex-direction: row;
+  gap: 290px;
+}
+
+.specialists__block-title-background--img {
+  width: 733px;
+  height: 509px;
+  background-image: url(../img/blure3.svg);
+  background-repeat: no-repeat;
+  background-position-x: 300px;
+  background-position-y: -200;
+}
+
+
 .specialists__block-border {
   margin-top: 54px;
   margin-bottom: 101px;
@@ -39,6 +56,8 @@
 .specialists__block-description {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 50px;
 }
 
@@ -81,7 +100,7 @@
 
 .specialists__block-description-all-info-text--border {
   margin-top: 12px;
-  margin-bottom: 20px;
+  margin-bottom: auto;
 }
 
 .specialists__block-description-all-info-text--description {

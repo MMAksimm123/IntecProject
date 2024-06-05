@@ -1,0 +1,65 @@
+.for-who__block {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  margin-top: 165px;
+  background-image: url(../img/Ellipse.png);
+  background-repeat: no-repeat;
+  height: 584px;
+  background-size: contain;
+}
+
+.for-who__block-title {
+  margin-top: 251px;
+  margin-left: 49px;
+  max-width: 368px;
+  text-wrap: wrap;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.for-who__block-title--yellow {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #EBBD1B;
+}
+
+.for-who__block-title--white {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #FFFFFF;
+}
+
+.for-who__block-for-who {
+  max-width: 500px;
+}
+
+.for-who__block-for-who-area-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.for-who__block-for-who-area-text--small-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 45px;
+  color: #FFFFFF;
+}
+
+.text1 {
+  margin-top: 175px;
+}
+
+.text2 {
+  margin-top: 61px;
+}
+
+.text3 {
+  margin-top: 65px;
+}

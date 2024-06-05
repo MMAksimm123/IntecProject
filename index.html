@@ -4,40 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intec Course</title>
-    <link rel="stylesheet" href="./style/styleReset.css">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/styleMain1.css">
-    <link rel="stylesheet" href="style/styleFormatEvent.css">
-    <link rel="stylesheet" href="style/styleSpecialists.css">
+    <link rel="stylesheet" href="./style/styleLink.css">
 </head>
 <body class="body">
   <header>
-    <div class="headerContayner">
+    <div class="headerContayner wrapper__header">
       <div class="logoIntec">
         <img src="./img/logoIntec.svg" alt="logj" class="logoImg">
       </div>
-      <div class="navigatePanel">
-        <div class="eventProgramme">
+      <ul class="navigatePanel">
+        <ul class="eventProgramme">
           <a href="https://intecweb.ru/" class="textHeader">
             программа
           </a>
-        </div>
-        <div class="eventProgramme">
+        </ul>
+        <ul class="eventProgramme">
           <a href="https://intecweb.ru/" class="textHeader">
             регистрация
           </a>
-        </div>
-        <div class="eventProgramme">
-          <label class="textHeader">
-            8 800 100 45 85
-          </label>
-        </div>
-      </div>
+        </ul>
+        <ul class="eventProgramme">
+           <a class="textHeader" href="tel:+78001004585">8 800 100 45 85</a>
+        </ul>
+      </ul>
     </div>
   </header>
 
   <main>
-    <div class="contaynerNewIvent">
+    <div class="contaynerNewIvent wrapper__new-ewent">
       <div class="descriptionIvent">
         <div class="title">
           <label class="title1">
@@ -64,7 +58,7 @@
       <div class="blurBackground"></div>
     </div>
 
-    <div class="format-event">
+    <div class="format-event wrapper__format-event">
       <div class="format-event__block--title">
         <div class="format-event__block-text--title1">
           <label class="format-event__text--white">Что такое</label>
@@ -96,15 +90,20 @@
       </div>
     </div>
 
-    <div class="specialists__block">
-      <div class="specialists__block-title-text">
-        <label class="specialists__block-title-text--yellow">Кто поделится с вами</label>
-        <label class="specialists__block-title-text--white">опытом и идеями?</label>
+    <div class="specialists__block wrapper__specialists">
+      <div class="specialists__block-title-text--header-block wraper">
+        <div class="specialists__block-title-text">
+          <label class="specialists__block-title-text--yellow">Кто поделится с вами</label>
+          <label class="specialists__block-title-text--white">опытом и идеями?</label>
+          <div class="specialists__block-border">
+            <img class="specialists__block-border--img" src="./img/borderLine.svg" alt="">
+          </div>
+        </div>
+        <div class="specialists__block-title-background">
+          <img class="specialists__block-title-background--img" src="./img/Graphic.png" alt="">
+        </div>
       </div>
-      <div class="specialists__block-border">
-        <img class="specialists__block-border--img" src="./img/borderLine.svg" alt="">
-      </div>
-      <div class="specialists__block-description">
+      <div class="specialists__block-description wrapper__specialists-description">
         <div class="specialists__block-description-all-info">
           <div class="specialists__block-description-all-info--frame">
             <img class="specialists__block-description-all-info--photo" src="./img/speacker1.png" alt="">
@@ -118,7 +117,6 @@
             <img class="specialists__block-description-all-info-text--logo" src="./img/logoIntec.svg" alt="">
           </div>
         </div>
-
         <div class="specialists__block-description-all-info">
           <div class="specialists__block-description-all-info--frame">
             <img class="specialists__block-description-all-info--photo" src="./img/smirnov_main 1.svg" alt="">
@@ -144,7 +142,109 @@
           </div>
         </div>
       </div>
+    </div>
 
+    <div class="reasons__block wrapper">
+      <div class="reasons__block-registration">
+        <img class="reasons__block-registration--logo" src="./img/logoIntec.svg" alt="">
+        <div class="reasons__block-registration-title">
+          <label class="reasons__block-registration-title--yellow">ПОЧЕМУ</label>
+          <label class="reasons__block-registration-title--white">ИМЕННО ЭТА КОНФЕРЕНЦИЯ? </label>
+        </div>
+        <button class="reasons__block-registration--button">Зарегестрироваться</button>
+      </div>
+
+      <div class="reasons__block-description grid1">
+        <div class="reasons__block-decription-area">
+          <div class="reasons__block-decription-area-number">
+            <p class="reasons__block-decription-area-number-text">01</p>
+          </div>
+          <div class="reasons__block-decription-area-number-text--description">
+            <label class="reasons__block-decription-area-number-text--bold">Всего 4 часа</label>
+            <label class="reasons__block-decription-area-number-text--normal">концентрата знаний вместо дорогих месячных курсов</label>
+            <label class="reasons__block-decription-area-number-text--bold">для прокачки навыков</label>
+          </div>
+        </div>
+
+        <div class="reasons__block-decription-area grid2">
+          <div class="reasons__block-decription-area-number">
+            <p class="reasons__block-decription-area-number-text">02</p>
+          </div>
+          <div class="reasons__block-decription-area-number-text--description">
+            <label class="reasons__block-decription-area-number-text--bold">Разбор опыта компаний,</label>
+            <label class="reasons__block-decription-area-number-text--normal"> внедривших новейшие технологии повышения эффективности работы команды</label>
+          </div>
+        </div>
+
+        <div class="reasons__block-decription-area">
+          <div class="reasons__block-decription-area-number">
+            <p class="reasons__block-decription-area-number-text">03</p>
+          </div>
+          <div class="reasons__block-decription-area-number-text--description">
+            <label class="reasons__block-decription-area-number-text--bold">Только 100% практики,</label>
+            <label class="reasons__block-decription-area-number-text--normal"> действующие механики и рабочие приемы, действующие механики и алгоритмы</label>
+          </div>
+        </div>
+
+        <div class="reasons__block-decription-area">
+          <div class="reasons__block-decription-area-number">
+            <p class="reasons__block-decription-area-number-text">04</p>
+          </div>
+          <div class="reasons__block-decription-area-number-text--description">
+            <label class="reasons__block-decription-area-number-text--bold">Общение с экспертами,</label>
+            <label class="reasons__block-decription-area-number-text--normal"> возможность задать главные вопросы и тут же получить обратную связь</label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="for-who__block wrapper">
+      <div class="for-who__block-title">
+        <label class="for-who__block-title--yellow">
+          дЛЯ КОГО
+        </label>
+        <label class="for-who__block-title--white">
+          ЭТА КОНФЕРЕНЦИЯ?
+        </label>
+      </div>
+      <div class="for-who__block-for-who">
+        <div class="for-who__block-for-who-area-text">
+          <p class="for-who__block-for-who-area-text--small-text text1">Предприниматели и владельцы бизнеса</p>
+          <p class="for-who__block-for-who-area-text--small-text text2">Директора по маркетингу, развитию и продажам</p>
+          <p class="for-who__block-for-who-area-text--small-text text3">Маркетологи, менеджеры</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="reglament__block wraper__reglament">
+      <div class="reglament__block-title wraper__reglament-title">
+        <div class="reglament__block-title-text">
+          <label class="reglament__block-title-text--yellow">Программа</label>
+          <label class="reglament__block-title-text--white">Конференции</label>
+        </div>
+        <div class="reglament__block-title-hashteg-text">
+          <label class="reglament__block-title-hashteg-text--yellow">#Продавай</label>
+          <label class="reglament__block-title-hashteg-text--white">по-новому</label>
+        </div>
+      </div>
+
+      <div class="reglament__block-title-text--border wraper__reglament-title">
+        <img class="reglament__block-title-text--border--line" src="./img/borderLine.svg" alt="">
+      </div>
+
+      <div class="reglament__block-table">
+        <div class="reglament__block-table-time-speacer">
+
+        </div>
+
+        <div>
+          <img src="./img/LineForTable.png" alt="">
+        </div>
+
+        <div class="reglament__block-table-name-ivent-description">
+
+        </div>
+      </div>
     </div>
   </main>
 

@@ -4,7 +4,6 @@
 .contaynerNewIvent {
   display: flex;
   flex-direction: row;
-  margin-left: 360px;
   background-image: url(../img/Pulse.svg);
   background-repeat: no-repeat;
   background-position-x: 100px;
