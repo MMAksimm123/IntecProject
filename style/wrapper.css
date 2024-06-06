@@ -61,3 +61,43 @@
   width: 100%;
   margin: 0 auto;
 }
+
+.wrapper__popular-qwestion {
+  box-sizing: border-box;
+  padding: 0 20px;
+  max-width: 1191px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*.wraper-block-qwestion {
+  box-sizing: border-box;
+  padding: 0 20px;
+  max-width: 607px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*.wraper-block-qwestion-when {
+  box-sizing: border-box;
+  padding: 52px auto;
+  max-width: 324px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wraper-block-answer-when {
+  box-sizing: border-box;
+  pad: 52px auto;
+  max-width: 324px;
+  width: 100%;
+  margin: 0 auto;
+}*/
+
+.wraper-block-qwestion-second-line {
+  box-sizing: border-box;
+  padding: 0 0px;
+  max-width: 607px;
+  width: 100%;
+  margin: 0 auto;
+}

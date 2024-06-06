@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.qwestion-block {
+  margin-top: 299px;
+  gap: 151px;
+  display: flex;
+  flex-direction: row;
+}
+
+.qwestion-block-must-question {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.qwestion-block-must-question-textarea {
+  display: flex;
+  flex-direction: column;
+}
+
+.qwestion-block-must-question-title--text {
+  margin-top: 74px;
+  text-transform: uppercase;
+  text-wrap: wrap;
+}
+
+.qwestion-block-must-question-title--text-yelow {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 78px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #EBBD1B;
+}
+
+.qwestion-block-must-question-title--text-white {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 78px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #FFFFFF  ;
+}
+
+.qwestion-block-must-question-description--text {
+  margin-top: 50px;
+  max-width: 439px;
+  text-wrap: wrap;
+}
+
+.qwestion-block-must-question-description--text-small {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.qwestion-block-answer-block {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.qwestion-block-must-question-border {
+  margin-top: 59px;
+}
+
+.qwestion-block-must-question-login {
+  margin-top: 91px;
+}
+
+.qwestion-block-must-question-login--button {
+  width: 289px;
+  height: 63px;
+  background-color: #EBBD1B;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #070707;
+  border: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.qwestion-block-answer-bloc {
+  max-width: 607px;
+
+}
+
+.westion-block-answer-block-how-much-block--text-big {
+  display: flex;
+  flex: column;
+  max-width: 607px;
+}
+
+.qwestion-block-answer-block-how-much-block {
+  background-color: #1D1D1D;
+  display: flex;
+  flex-direction: column;
+}
+
+.qwestion-block-answer-block-how-much-block--text-big {
+  margin-top: 51px;
+  margin-left: 61px;
+  text-wrap: wrap;
+  text-transform: uppercase;
+}
+
+.qwestion-block-answer-block-how-much-block--text-big {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: left;
+  color: #EBBD1B;
+}
+
+.qwestion-block-answer-block-how-much-block--text-small {
+  margin-top: auto;
+  margin-left: 61px;
+  margin-bottom: 57px;
+  max-width: 546px;
+}
+
+.qwestion-block-answer-block-how-much-block--text-small-discription {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.qwestion-block-answer-block-second-line {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.qwestion-block-answer-block-second-line-when {
+  background-color: #1D1D1D;
+  display: flex;
+  flex-direction: column;
+  width: 324px;
+}
+
+.qwestion-block-answer-block-when-text-small {
+  margin-left: 61px;
+  margin-bottom: 91px;
+  margin-top: 10px;
+}
+
+.qwestion-block-answer-block-when-text-big-white {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.qwestion-block-answer-block-when-text-big {
+  margin-top: 92px;
+  margin-left: 61px;
+}
+
+.qwestion-block-answer-block-when-text-big-yellow {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 37px;
+  text-align: left;
+  color: #EBBD1B;
+}
+
+.qwestion-block-answer-block-second-line-where {
+  background-color: #1D1D1D;
+}
+
+.qwestion-block-answer-block-where-text-big {
+  margin-top: 92px;
+  margin-left: 51px;
+  margin-right: 122px;
+}
+
+.qwestion-block-answer-block-where-text-big-white {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.qwestion-block-answer-block-where-text-small {
+  margin-top: 10px;
+  margin-left: 51px;
+}
+
+.qwestion-block-answer-block-where-text-big-yellow {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 37px;
+  text-align: left;
+  color: #EBBD1B;
+}
